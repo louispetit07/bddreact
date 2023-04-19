@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    
+    .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    }
+    
+    .Appp-logo {
+        animation: App-logo-spin infinite 5s linear;
+        height: 100vmin;
+        pointer-events: none;
+        position: absolute;
+        top: 1%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+    .cv-logo {
+    
+    height: 20vmin;
+    pointer-events: none;
+    }
+    
+    @keyframes App-logo-spin {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+    }
